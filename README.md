@@ -7,7 +7,7 @@
 [![codecov][codecov-badge]][codecov-url]
 [![docs.rs][docs-badge]][docs-url]
 
-[ci-badge]: https://img.shields.io/github/workflow/status/ureeves/iter-diff/main?logo=github
+[ci-badge]: https://img.shields.io/github/workflow/status/ureeves/iter-diff/CI?logo=github
 [ci-url]: https://github.com/ureeves/iter-diff/actions/workflows/main.yml
 [codecov-badge]: https://img.shields.io/codecov/c/gh/ureeves/iter-diff?logo=codecov
 [codecov-url]: https://codecov.io/gh/ureeves/iter-diff
