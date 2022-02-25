@@ -1,4 +1,4 @@
-name: main
+name: CI
 
 on:
   push:
@@ -29,9 +29,9 @@ jobs:
   test:
     strategy:
       matrix:
-        os: [ ubuntu-latest, windows-latest, macos-latest ]
+        runs-on: [ ubuntu-latest, windows-latest, macos-latest ]
 
-    runs-on: ${{ matrix.node }}
+    runs-on: ${{ matrix.runs-on }}
     steps:
       - uses: actions/checkout@v2
 

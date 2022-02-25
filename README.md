@@ -1,11 +1,25 @@
+
 # iter-diff
 
-Differences between iterators
+#### Differences between iterators
+
+[![CI][ci-badge]][ci-url]
+[![codecov][codecov-badge]][codecov-url]
+[![docs.rs][docs-badge]][docs-url]
+
+[ci-badge]: https://img.shields.io/github/workflow/status/ureeves/iter-diff/main?logo=github
+[ci-url]: https://github.com/ureeves/iter-diff/actions/workflows/main.yml
+[codecov-badge]: https://img.shields.io/codecov/c/gh/ureeves/iter-diff?logo=codecov
+[codecov-url]: https://codecov.io/gh/ureeves/iter-diff
+[docs-badge]: https://img.shields.io/docsrs/iter-diff?color=blue&logo=rust&logoColor=orange
+[docs-url]: https://docs.rs/iter-diff
+
+---
 
 The `IterDiff` trait can be used to iterate through the differences between
 two iterators. The differences between each element are enumerated by `Diff`.
 The variants of the enum express the changes one would need to make to the
-original iterator in order to attain the second.
+left-hand iterator in order to attain the right-hand iterator.
 
 ```rust
 use iter_diff::prelude::*;
